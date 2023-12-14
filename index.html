@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timduthuyen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mixi VIVU</title>
+</head>
+<body>
+    <center><header>
+        <div class="subnav">
+            <div class="subnav1">
+                <div class="logo">
+                <a href="index.html"><img src="image/image.webp" alt="logomixivivu"></a>
+                </div>
+                <div class="nav_menu">
+                    <ul>
+                        <li><a href="#" onclick="loadPage('timduthuyen.html')">Tìm Du Thuyền</a></li>
+                        <li><a href="#" onclick="loadPage('timvemaybay.html')">Tìm Vé Máy Bay</a></li>
+                        <li><a href="#" onclick="loadPage('doanhnghiep.html')">Doanh Nghiệp</a></li>
+                        <li><a href="#" onclick="loadPage('blog.html')" >Blog</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            
+            <div class="subnav2">
+                <div class="contact">
+                    <p><span><a href="#">liên hệ Mixivivu</a></span></p>
+    
+                </div>
+                <div class="hien"  id="menuIcon"><i class="fa-solid fa-bars fa-2xl" style="color: #000000; padding: 15px 0;"></i>
+                <div class="nav_menu-2" id="myMenu">
+                    <ul>
+                        <li><a href="#" onclick="loadPage('timduthuyen.html')">Tìm Du Thuyền</a></li>
+                        <li><a href="#" onclick="loadPage('timvemaybay.html')">Tìm Vé Máy Bay</a></li>
+                        <li><a href="#" onclick="loadPage('doanhnghiep.html')">Doanh Nghiệp</a></li>
+                        <li><a href="#" onclick="loadPage('blog.html')" >Blog</a></li>
+                        <li><a href="#" onclick="loadPage('blog.html')" >Hotline: +84915582684</a></li>
+                        <li><a href="#" onclick="loadPage('blog.html')" >Email: quangsonnguyen2807</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            
+                <script>
+                    // Lấy tham chiếu đến các phần tử
+                    var menuIcon = document.getElementById("menuIcon");
+                    var myMenu = document.getElementById("myMenu");
+                
+                    // Thêm sự kiện onclick cho icon menu
+                    menuIcon.onclick = function() {
+                        // Kiểm tra trạng thái hiển thị của menu và thay đổi nó
+                        if (myMenu.style.display === "none" || myMenu.style.display === "") {
+                            myMenu.style.display = "block";
+                        } else {
+                            myMenu.style.display = "none";
+                        }
+                    };
+                
+                </script>
+            </div>
+        </div>
+    </header></center>
+    <center>
+        <main id="main-content">
+            <div class="backgroud-main">
+                <video src="image/Mixivivuduthuyen.mp4" autoplay muted playsinline loop></video>
+            </div>
+            <div class="main-search">
+                <form action="qwertyuiopasdfghjklZxcvbnm" class="form1">
+                    <div class="heading">
+                        <h1>Bạn lựa chọn du thuyền Hạ Long Nào?</h1>
+                    <p>hơn 100 tour du thuyền hạng sang giá tốt đang chờ đón bạn</p>
+                    </div>
+                    <div class="search">
+                        <form action="qưertyuioposdfghjklzxcvbnm" for="" class="form2">
+                            <div class="search1">
+                                <span><a href=""><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #9e9e9e;"></i></a></span>
+                                <input type="text" placeholder="Nhập tên du thuyền">
+                            </div>
+                            <div class="checkin">
+                                <span><a href=""><i class="fa-solid fa-map-location-dot fa-xl" style="color: #86898d;"></i></i></a></span>
+                                <select name="" id="">
+                                    <option value="#">Tất cả địa điểm</option>
+                                    <option value="">Vịnh Hạ Long</option>
+                                    <option value="">Vịnh Lan Hạ</option>
+                                    <option value="">Đảo Cát Bà</option>
+                                </select>
+                            </div>
+                            <div class="checkin">
+                                <span><i class="fa-solid fa-dollar-sign fa-xl" style="color: #858585; "></i></span>
+                                <select name="" id="">
+                                    <label for=""><i class="fa-solid fa-dollar-sign fa-xl" style="color: #858585; "></i></label>    
+                                    <option value="#">Tất cả mức giá</option>
+                                    <option value="">từ 1 đến 3 triệu</option>
+                                    <option value="">từ 3 đến 6 triệu</option>
+                                    <option value="">trên 6 triệu</option>
+                                </select>   
+                            </div>
+                            <input type="submit" value="Tìm Kiếm">
+                        </form>
+                    </div>
+                </form>
+            </div>
+            <article>
+                <div class="content">
+                    <div class="text">
+                        <div class="left">
+                            <h1>Du thuyền mới <br>và phổ biến nhất</h1>
+                        </div>
+                        <div class="right">
+                            <p>Tận hưởng sự xa hoa và đẳng cấp tối đa trên du thuyền mới nhất và phổ biến nhất. Khám phá một hành trình tuyệt vời đưa bạn vào thế giới của sự sang trọng, tiện nghi và trải nghiệm không thể quên.</p>
+                        </div>
+            
+                    </div>
+                    <div class="product-list">
+                        <ul>
+                            <li>                    
+                                <a href="#">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/no53ab0y526yl825.webp" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="Address item">
+                                                <span><i class="fa-solid fa-location-dot" style="color: #4f4848;"></i></span>
+                                                <span><a href="#">Vịnh Hạ Long</a></span>
+                                            </div>
+                                            <div class="info-center item">
+                                                <h1>Du thuyền Heritage Bình Chuẩn Cát Bà</h1>
+                                            </div>
+                                            <div class="info-year item">Hạ thuỷ 2019 - Tàu vỏ Kim loại - 20 phòng
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-monney">
+                                                <span><h1><b>3,500,000đ</b></h1></span>
+                                            </div>
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Đặt Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>                    
+                                <a href="#">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/no53ab0y526yl825.webp" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="Address item">
+                                                <span><i class="fa-solid fa-location-dot" style="color: #4f4848;"></i></span>
+                                                <span><a href="#">Vịnh Hạ Long</a></span>
+                                            </div>
+                                            <div class="info-center item">
+                                                <h1>Du thuyền Heritage Bình Chuẩn Cát Bà</h1>
+                                            </div>
+                                            <div class="info-year item">Hạ thuỷ 2019 - Tàu vỏ Kim loại - 20 phòng
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-monney">
+                                                <span><h1><b>3,500,000đ</b></h1></span>
+                                            </div>
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Đặt Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>                    
+                                <a href="#">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/no53ab0y526yl825.webp" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="Address item">
+                                                <span><i class="fa-solid fa-location-dot" style="color: #4f4848;"></i></span>
+                                                <span><a href="#">Vịnh Hạ Long</a></span>
+                                            </div>
+                                            <div class="info-center item">
+                                                <h1>Du thuyền Heritage Bình Chuẩn Cát Bà</h1>
+                                            </div>
+                                            <div class="info-year item">Hạ thuỷ 2019 - Tàu vỏ Kim loại - 20 phòng
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-monney">
+                                                <span><h1><b>3,500,000đ</b></h1></span>
+                                            </div>
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Đặt Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>                    
+                                <a href="#">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/no53ab0y526yl825.webp" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="Address item">
+                                                <span><i class="fa-solid fa-location-dot" style="color: #4f4848;"></i></span>
+                                                <span><a href="#">Vịnh Hạ Long</a></span>
+                                            </div>
+                                            <div class="info-center item">
+                                                <h1>Du thuyền Heritage Bình Chuẩn Cát Bà</h1>
+                                            </div>
+                                            <div class="info-year item">Hạ thuỷ 2019 - Tàu vỏ Kim loại - 20 phòng
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-monney">
+                                                <span><h1><b>3,500,000đ</b></h1></span>
+                                            </div>
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Đặt Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>                    
+                                <a href="#">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/no53ab0y526yl825.webp" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="Address item">
+                                                <span><i class="fa-solid fa-location-dot" style="color: #4f4848;"></i></span>
+                                                <span><a href="#">Vịnh Hạ Long</a></span>
+                                            </div>
+                                            <div class="info-center item">
+                                                <h1>Du thuyền Heritage Bình Chuẩn Cát Bà</h1>
+                                            </div>
+                                            <div class="info-year item">Hạ thuỷ 2019 - Tàu vỏ Kim loại - 20 phòng
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-monney">
+                                                <span><h1><b>3,500,000đ</b></h1></span>
+                                            </div>
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Đặt Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>                    
+                                <a href="#">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/no53ab0y526yl825.webp" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="Address item">
+                                                <span><i class="fa-solid fa-location-dot" style="color: #4f4848;"></i></span>
+                                                <span><a href="#">Vịnh Hạ Long</a></span>
+                                            </div>
+                                            <div class="info-center item">
+                                                <h1>Du thuyền Heritage Bình Chuẩn Cát Bà</h1>
+                                            </div>
+                                            <div class="info-year item">Hạ thuỷ 2019 - Tàu vỏ Kim loại - 20 phòng
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-monney">
+                                                <span><h1><b>3,500,000đ</b></h1></span>
+                                            </div>
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Đặt Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-content">
+                        <span><a href="#">Xem tất cả du thuyền </a> <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></span>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="wrapper">
+                        <div class="background-review">
+                            <div class="left-feedback">
+                                <h1>Đánh giá từ những <br> người đã trải nghiệm</h1>
+                            </div>
+                            <div class="right-feetback">
+                                <p>Khách hàng chia sẻ về những kỷ niệm tuyệt vời trên chuyến du lịch với chúng tôi.</p>
+                            </div>
+                        </div>
+                        <div class="feedback">
+                            <div class="image">
+                                <img src="image/quote.svg" alt="hihi">
+            
+                            </div>
+                            <div class="feedback2">
+                                <div class="text-feedback">
+                                    <p>Cảm ơn team đã cho mình trải nghiệm quá ưng ý.
+                                        <br>Đi đúng hôm thời tiết đẹp,ngắm cảnh vịnh Hạ Long đẹp tuyệt vời.
+                                        <br>Nhân viên tư vấn nhiệt tình còn note lại khách dị ứng món gì,phục vụ chu đáo, buffet hải sản tươi ngon,phòng ốc đẹp
+                                        <br>Tuyệt vời lắm !!!</p>
+                                </div>
+                                <div class="sign">
+                                    <h2>sơn và người yêu-</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-feedback">
+                            <ul>
+                                <li><a href="">Anh Sơn</a></li>
+                                <li><a href="">Anh way</a></li>
+                                <li><a href="">Anh Rambo</a></li>
+                                <li><a href="">Anh Dộ MiXI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="heading">
+                        <div class="top">
+                            <h1>Các điểm đến của Mixivivu</h1>
+                        </div>
+                        <div class="center-content">
+                            <p>Khám phá vẻ đẹp tuyệt vời của Du thuyền Hạ Long: Hành <br> trình đến thiên đường thiên nhiên</p>
+                        </div>
+                        <div class="bottom">
+                            <img src="image/image2.webp" alt="1234567890">
+                        </div>
+                    </div>
+                    <div class="location"> 
+                        <div class="product-list">
+                            <ul>
+                                <li>              
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/547b7d230cacd9f280bd3.jpg" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="info-center item">
+                                                <h1> Vịnh Hạ Long</h1>
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Xem Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>                    
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/6063b331c2be17e04eaf1.jpg" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="info-center item">
+                                                <h1>Đảo Cát Bà</h1>
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Xem Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>                    
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <img src="image/ded9108b6104b45aed152.jpg" alt="">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="info-center item">
+                                                <h1>Vịnh Lan Hạ</h1>
+                                            </div>
+                                        </div>
+                                        <div class="product-buy-now item">
+            
+                                            <div class="product-buy-click">
+                                                <span><a href="#">Xem Ngay</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="wrapper">
+                        <div class="background-review">
+                            <div class="left-feedback">
+                                <h1>Đối tác Cùng các
+                                    <br>Hãng Du thuyền Lớn</h1>
+                            </div>
+                            <div class="right-feetback">
+                                <p>Đối tác hàng đầu với các hãng du thuyền danh tiếng: Ưu đãi độc quyền dành riêng cho bạn.</p>
+                            </div>
+                        </div>
+                        <div class="footer-feedback-2">
+                            <ul>
+                                <li><img src="image/partner1.png" alt=""></li>
+                                <li><img src="image/partner2.png" alt=""></li>
+                                <li><img src="image/partner3.png" alt=""></li>
+                                <li><img src="image/partner4.png" alt=""></li>
+                                <li><img src="image/partner5.png" alt=""></li>
+                                <li><img src="image/partner6.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-2">
+                    <div class="text-2">
+                        <div class="left-2">
+                            <h1>Hạ Long: Khám phá Sự đặc sắc <br>
+                                và Cập nhật tin tức mới nhất</h1>
+                                <img src="image/image2.webp" alt="">
+                        </div>
+                        <div class="right-2">
+                            <p>Hạ Long: Bí mật và Cuộc sống trong Vịnh - Khám phá và Cập nhật những tin tức hấp dẫn từ điểm đến tuyệt vời này.</p>
+                        </div>
+            
+                    </div>
+                    <div class="product-list-2">
+                        <ul>
+                            <li>                    
+                                <div class="product-item-2">
+                                    <div class="product-image-2">
+                                        <img src="image/nha.webp" alt="">
+                                    </div>
+                                    <div class="product-info-2">
+                                        <div class="info-center-2 item-2">
+                                            <h4>Khám phá 3 ngôi chùa nổi tiếng ở Quảng Ninh</h4>
+                                        </div>
+                                        <div class="info-year item-2">Không chỉ được biết đến là một địa điểm du lịch nổi tiếng bao gồm: Vịnh Hạ Long, đảo Tuần Châu, …Ngoài ra, thành phố du lịch Quảng Ninh còn thu hút du khách bởi những địa điểm du lịch tâm linh.
+                                        </div>
+                                    </div>
+                                    <div class="product-buy-now-2 item-2">
+                                        <div class="product-monney-2">
+                                            <span><h4> 09/12/2023 </b></h4></span>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </li>
+                            <li>                    
+                                <div class="product-item-2">
+                                    <div class="product-image-2">
+                                        <img src="image/nha.webp" alt="">
+                                    </div>
+                                    <div class="product-info-2">
+                                        <div class="info-center-2 item-2">
+                                            <h4>TOP ĐẶC SẢN QUẢNG NINH LÀM QUÀ NỔI TIẾNG </h4>
+                                        </div>
+                                        <div class="info-year item-2">Sau những trải nghiệm du lịch hấp dẫn, nhiều du khách tìm kiếm đặc sản QUẢNG NINH làm quà cho người thân, bạn bè. Có nhiều loại đặc sản Quảng Ninh mua về làm quà nổi tiếng, hấp dẫn, chắc chắn khi bạn tặng người nhận sẽ rất hài lòng.
+                                        </div>
+                                    </div>
+                                    <div class="product-buy-now-2 item-2">
+                                        <div class="product-monney-2">
+                                            <span><h4> 09/12/2023 </b></h4></span>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </li>
+                            <li>                    
+                                <div class="product-item-2">
+                                    <div class="product-image-2">
+                                        <img src="image/nha.webp" alt="">
+                                    </div>
+                                    <div class="product-info-2">
+                                        <div class="info-center-2 item-2">
+                                            <h4>Top 3 nhà hàng ngon và nổi tiếng ở Hạ Long </h4>
+                                        </div>
+                                        <div class="info-year item-2">Hạ Long không chỉ được biết đến với những điểm tham quan đẹp với nắng vàng, cát trắng, biển xanh hay những hang động nổi tiếng. Nơi đây còn mang trong mình vẻ đẹp của nền ẩm thực đa dạng và phong phú. Dưới đây là 3 nhà hàng được đánh giá “chất lượng” cho bạn tham khảo nhé!
+                                        </div>
+                                    </div>
+                                    <div class="product-buy-now-2 item-2">
+                                        <div class="product-monney-2">
+                                            <span><h4> 09/12/2023 </b></h4></span>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-content-2">
+                        <span><a href="#">Xem tất cả</a> <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></span>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </center>
+    <center>
+        <footer>
+            <div class="wrapper-1">
+                <div class="wrapper-2">
+                    <div class="container-2">
+                        <div class="left-text">
+                            <div class="image-1">
+                                <img src="image/image.webp" alt="">
+                            </div>
+                            <div class="text-2">
+                                <p>Mixivivu - đối tác tin cậy của các hãng du thuyền lớn, mang đến cho bạn chương trình ưu đãi độc quyền cho tour du thuyền Hạ Long. Khám phá Hạ Long với Mixivivu - trải nghiệm du thuyền đẳng cấp và nhận những ưu đãi đặc biệt từ chúng tôi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right-text">
+                            <div class="info-footer-left">
+                                <h3>Giới thiệu</h3>
+                                <ul>
+                                    <li><a href="">Về chúng tôi</a></li>
+                                    <li><a href="">Quy định chung và lưu ý</a></li>
+                                    <li><a href="">Câu hỏi thường gặp</a></li>
+                                    <li><a href="">Liên hệ</a></li>
+                                    <li><a href="">Hotline: +84915582684</a></li>
+                                    <li><a href="">Email: quangsonnguyen2807@gmail.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="info-footer-center">
+                                <h3>Điểm Dến</h3>
+                                <ul>
+                                    <li><a href="">Vịnh Hạ Long</a></li>
+                                    <li><a href="">Vịnh Lan Hạ</a></li>
+                                    <li><a href="">Đảo Cát Bà</a></li>
+                                </ul>
+                            </div>
+                            <div class="info-footer-right">
+                                <h3>Du Thuyền</h3>
+                                <ul>
+                                    <li><a href="">Du thuyền</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-3">
+                <div class="wrapper-4">
+                    <div class="left">
+                        <span ><i class="fa-regular fa-copyright fa-sm" style="color: #9da5b4;"></i> 2023Mixivivu. ALL RIGHT RESERVED</span>
+                    </div>
+                    <div class="right">
+                        <span><a href="https://www.facebook.com/profile.php?id=61553337176992"><i class="fa-brands fa-facebook fa-xl" style="color: #9ba5b5;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </center>
+<script src="js/mian.js"></script>
+</body>
+</html>

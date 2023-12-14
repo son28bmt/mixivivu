@@ -1,0 +1,972 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@200;300&family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "PT Sans", sans-serif;
+}
+@media screen and (max-width: 720px) {
+  html, body {
+    max-width: 724px;
+  }
+}
+html header .subnav, body header .subnav {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+html header .subnav .subnav1, body header .subnav .subnav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .subnav .subnav1 .logo img, body header .subnav .subnav1 .logo img {
+  width: 70%;
+}
+html header .subnav .subnav1 .nav_menu ul, body header .subnav .subnav1 .nav_menu ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+html header .subnav .subnav1 .nav_menu ul li, body header .subnav .subnav1 .nav_menu ul li {
+  margin: 10px;
+  list-style: none;
+}
+html header .subnav .subnav1 .nav_menu ul li a, body header .subnav .subnav1 .nav_menu ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+html header .subnav .subnav1 .nav_menu ul li:hover a, body header .subnav .subnav1 .nav_menu ul li:hover a {
+  color: #77dada;
+}
+html header .subnav .subnav2, body header .subnav .subnav2 {
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 724px) {
+  html header .subnav .subnav2, body header .subnav .subnav2 {
+    gap: 1px;
+  }
+}
+html header .subnav .subnav2 .contact, body header .subnav .subnav2 .contact {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+html header .subnav .subnav2 .contact p span, body header .subnav .subnav2 .contact p span {
+  padding: 10px 25px;
+  background-color: #77dada;
+  border-radius: 30px;
+}
+html header .subnav .subnav2 .contact p span a, body header .subnav .subnav2 .contact p span a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+html header .subnav .subnav2 .contact p:hover span, body header .subnav .subnav2 .contact p:hover span {
+  background-color: #18c0c0;
+}
+@media screen and (max-width: 720px) {
+  html header .subnav .subnav2 .contact, body header .subnav .subnav2 .contact {
+    display: flex;
+    align-items: center;
+  }
+  html header .subnav .subnav2 .contact p span, body header .subnav .subnav2 .contact p span {
+    padding: 0;
+  }
+  html header .subnav .subnav2 .contact p span a, body header .subnav .subnav2 .contact p span a {
+    font-size: 11px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html header .subnav .subnav1 .nav_menu, body header .subnav .subnav1 .nav_menu {
+    display: none;
+  }
+}
+html header .subnav .hien, html header .subnav .fa-solid, body header .subnav .hien, body header .subnav .fa-solid {
+  display: none;
+}
+html header .subnav .hien .nav_menu-2, html header .subnav .hien #myMenu, html header .subnav .fa-solid .nav_menu-2, html header .subnav .fa-solid #myMenu, body header .subnav .hien .nav_menu-2, body header .subnav .hien #myMenu, body header .subnav .fa-solid .nav_menu-2, body header .subnav .fa-solid #myMenu {
+  display: none;
+  background-color: #ffffff;
+  width: 300px;
+  position: absolute;
+  top: 98px;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 30px auto;
+}
+html header .subnav .hien .nav_menu-2 ul, html header .subnav .hien #myMenu ul, html header .subnav .fa-solid .nav_menu-2 ul, html header .subnav .fa-solid #myMenu ul, body header .subnav .hien .nav_menu-2 ul, body header .subnav .hien #myMenu ul, body header .subnav .fa-solid .nav_menu-2 ul, body header .subnav .fa-solid #myMenu ul {
+  text-align: left;
+}
+html header .subnav .hien .nav_menu-2 ul li, html header .subnav .hien #myMenu ul li, html header .subnav .fa-solid .nav_menu-2 ul li, html header .subnav .fa-solid #myMenu ul li, body header .subnav .hien .nav_menu-2 ul li, body header .subnav .hien #myMenu ul li, body header .subnav .fa-solid .nav_menu-2 ul li, body header .subnav .fa-solid #myMenu ul li {
+  list-style: none;
+  padding: 10px 10px;
+}
+html header .subnav .hien .nav_menu-2 ul li a, html header .subnav .hien #myMenu ul li a, html header .subnav .fa-solid .nav_menu-2 ul li a, html header .subnav .fa-solid #myMenu ul li a, body header .subnav .hien .nav_menu-2 ul li a, body header .subnav .hien #myMenu ul li a, body header .subnav .fa-solid .nav_menu-2 ul li a, body header .subnav .fa-solid #myMenu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+}
+@media screen and (max-width: 1024px) {
+  html header .subnav .hien, html header .subnav .fa-solid, body header .subnav .hien, body header .subnav .fa-solid {
+    display: block;
+  }
+}
+html main, body main {
+  position: relative;
+}
+html main .backgroud-main, body main .backgroud-main {
+  max-height: 824px;
+}
+html main .backgroud-main video, body main .backgroud-main video {
+  width: 90%;
+  border-radius: 30px;
+}
+@media screen and (max-width: 1024px) {
+  html main .backgroud-main video, body main .backgroud-main video {
+    width: 100%;
+  }
+}
+html main .main-search, body main .main-search {
+  position: absolute;
+  padding: 20px 24px 24px;
+  margin: auto;
+  background-color: #FFF;
+  border-radius: 30px;
+  border: 1px solid #7e7e7e;
+  box-shadow: #7e7e7e 0px 0px 16px 2px;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 150px;
+}
+html main .main-search .form1, body main .main-search .form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+html main .main-search .form1 .heading, body main .main-search .form1 .heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+html main .main-search .form1 .heading h1, body main .main-search .form1 .heading h1 {
+  font-size: 45px;
+}
+@media screen and (max-width: 724px) {
+  html main .main-search .form1 .heading h1, body main .main-search .form1 .heading h1 {
+    font-size: 18px;
+  }
+}
+html main .main-search .form1 .heading p, body main .main-search .form1 .heading p {
+  color: #7d7d7d;
+  font-size: 20px;
+}
+@media screen and (max-width: 724px) {
+  html main .main-search .form1 .heading p, body main .main-search .form1 .heading p {
+    font-size: 15px;
+  }
+}
+html main .main-search .form1 .search, body main .main-search .form1 .search {
+  display: flex;
+  gap: 20px;
+}
+html main .main-search .form1 .search .search1, body main .main-search .form1 .search .search1 {
+  width: 300px;
+  padding: 13px;
+  background-color: #FFF;
+  border: 1px solid #333;
+  border-radius: 30px;
+}
+html main .main-search .form1 .search .search1 input[type=text], body main .main-search .form1 .search .search1 input[type=text] {
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+html main .main-search .form1 .search .search1:hover, body main .main-search .form1 .search .search1:hover {
+  box-shadow: rgb(46, 131, 211) 0 0 15px 5px;
+}
+html main .main-search .form1 .search .checkin, body main .main-search .form1 .search .checkin {
+  width: 250px;
+  background-color: #FFF;
+  border: 1px solid #333;
+  border-radius: 30px;
+}
+html main .main-search .form1 .search .checkin select, body main .main-search .form1 .search .checkin select {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+html main .main-search .form1 .search .checkin:hover, body main .main-search .form1 .search .checkin:hover {
+  box-shadow: rgb(46, 131, 211) 0 0 15px 5px;
+}
+html main .main-search .form1 .search input[type=submit], body main .main-search .form1 .search input[type=submit] {
+  background-color: rgb(0, 255, 208);
+  border-radius: 30px;
+}
+html main .main-search .form1 .search input[type=submit]:hover, body main .main-search .form1 .search input[type=submit]:hover {
+  background-color: rgb(96, 226, 126);
+}
+@media screen and (min-width: 320px) and (max-width: 724px) {
+  html main .main-search, body main .main-search {
+    top: 1%;
+    width: 70%;
+  }
+  html main .main-search .form1, body main .main-search .form1 {
+    gap: 10px;
+  }
+  html main .main-search .form1 .heading, body main .main-search .form1 .heading {
+    gap: 0;
+  }
+  html main .main-search .form1 .search, body main .main-search .form1 .search {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  html main .main-search .form1 .search .search1, body main .main-search .form1 .search .search1 {
+    border-radius: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+  }
+  html main .main-search .form1 .search .search1 input[type=text], body main .main-search .form1 .search .search1 input[type=text] {
+    font-size: 14px;
+  }
+  html main .main-search .form1 .search .checkin, body main .main-search .form1 .search .checkin {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  html main .main-search .form1 .search .checkin span, body main .main-search .form1 .search .checkin span {
+    display: none;
+  }
+  html main .main-search .form1 .search .checkin select, body main .main-search .form1 .search .checkin select {
+    flex-grow: 1;
+    padding: 2px;
+    font-size: 14px;
+  }
+  html main .main-search .form1 .search input[type=submit], body main .main-search .form1 .search input[type=submit] {
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 724px) {
+  html main .main-search .form1 .search .checkin, body main .main-search .form1 .search .checkin {
+    padding: 0 20px;
+  }
+  html main .main-search .form1 .search input[type=submit], body main .main-search .form1 .search input[type=submit] {
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 724px) and (max-width: 1024px) {
+  html main .main-search, body main .main-search {
+    margin: 30px 0;
+    width: 90%;
+    top: 0;
+  }
+  html main .main-search .form1 .search, body main .main-search .form1 .search {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  html main .main-search .form1 .search .search1, body main .main-search .form1 .search .search1 {
+    border-radius: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  html main .main-search .form1 .search .checkin, body main .main-search .form1 .search .checkin {
+    padding: 0 20px;
+    border-radius: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8 select;
+    gap-flex-grow: 1;
+  }
+  html main .main-search .form1 .search input[type=submit], body main .main-search .form1 .search input[type=submit] {
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+  }
+}
+html main article, body main article {
+  padding-top: 150px;
+}
+html main article .content, body main article .content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 85px 20px;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+html main article .content .text, body main article .content .text {
+  display: flex;
+}
+html main article .content .text .left, body main article .content .text .left {
+  text-align: left;
+  width: 60%;
+}
+html main article .content .text .left h1, body main article .content .text .left h1 {
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+html main article .content .text .right, body main article .content .text .right {
+  width: 40%;
+}
+html main article .content .text .right p, body main article .content .text .right p {
+  font-size: 18px;
+  text-align: justify;
+}
+@media screen and (max-width: 720px) {
+  html main article .content .product-list ul, body main article .content .product-list ul {
+    flex-direction: column;
+  }
+}
+html main article .content .product-list ul, body main article .content .product-list ul {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+html main article .content .product-list ul li, body main article .content .product-list ul li {
+  margin: 10px;
+  list-style: none;
+}
+html main article .content .product-list ul li .product-item, body main article .content .product-list ul li .product-item {
+  cursor: pointer;
+  border: 1px solid rgb(156, 153, 153);
+  box-shadow: #322 0px 0px 10px 0;
+  border-radius: 30px;
+}
+html main article .content .product-list ul li .product-item h1, body main article .content .product-list ul li .product-item h1 {
+  font-size: 18px;
+}
+html main article .content .product-list ul li .product-item .product-image img, body main article .content .product-list ul li .product-item .product-image img {
+  width: 350px;
+  padding: 10px;
+  border-radius: 30px;
+}
+html main article .content .product-list ul li .product-item .product-info, body main article .content .product-list ul li .product-item .product-info {
+  padding: 10px 30px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+html main article .content .product-list ul li .product-item .product-info .item, body main article .content .product-list ul li .product-item .product-info .item {
+  margin: 10px 0;
+}
+html main article .content .product-list ul li .product-item .product-info .Address, body main article .content .product-list ul li .product-item .product-info .Address {
+  background-color: #bfbfbf;
+  width: 130px;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+html main article .content .product-list ul li .product-item .product-info .Address a, body main article .content .product-list ul li .product-item .product-info .Address a {
+  text-decoration: none;
+  color: #333;
+}
+html main article .content .product-list ul li .product-item .product-buy-now, body main article .content .product-list ul li .product-item .product-buy-now {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+html main article .content .product-list ul li .product-item .product-buy-now .product-buy-click a, body main article .content .product-list ul li .product-item .product-buy-now .product-buy-click a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  background-color: #77dada;
+  border-radius: 30px;
+}
+html main article .content .product-list ul li .product-item .product-buy-now .product-buy-click a:hover, body main article .content .product-list ul li .product-item .product-buy-now .product-buy-click a:hover {
+  background-color: #18c0c0;
+}
+html main article .content .footer-content, body main article .content .footer-content {
+  padding: 20px;
+  border: 1px solid rgb(100, 100, 100);
+  width: 300px;
+  border-radius: 30px;
+  text-align: center;
+  margin: 100px auto;
+}
+html main article .content .footer-content a, body main article .content .footer-content a {
+  text-decoration: none;
+  color: #333;
+}
+@media screen and (max-width: 1024px) {
+  html main article .content, body main article .content {
+    gap: 30px;
+  }
+  html main article .content .text, body main article .content .text {
+    flex-direction: column;
+  }
+  html main article .content .text .left h1, body main article .content .text .left h1 {
+    font-size: 30px;
+  }
+  html main article .content .text .right, body main article .content .text .right {
+    width: 100%;
+  }
+  html main article .content .text .right p, body main article .content .text .right p {
+    font-size: 15px;
+    text-align: left;
+  }
+  html main article .content .product-list, body main article .content .product-list {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+  }
+  html main article .content .product-list ul, body main article .content .product-list ul {
+    justify-content: center;
+  }
+  html main article .content .footer-content, body main article .content .footer-content {
+    margin: auto;
+  }
+}
+html main article .review, body main article .review {
+  background-color: #bdf0f0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+html main article .review .wrapper, body main article .review .wrapper {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 100px 30px;
+  gap: 100px;
+}
+html main article .review .wrapper .background-review, body main article .review .wrapper .background-review {
+  display: flex;
+  justify-content: space-between;
+}
+html main article .review .wrapper .background-review .left-feedback, body main article .review .wrapper .background-review .left-feedback {
+  width: 60%;
+}
+html main article .review .wrapper .background-review .left-feedback h1, body main article .review .wrapper .background-review .left-feedback h1 {
+  text-align: left;
+  font-size: 35px;
+}
+html main article .review .wrapper .background-review .right-feetback, body main article .review .wrapper .background-review .right-feetback {
+  width: 40%;
+}
+html main article .review .wrapper .background-review .right-feetback p, body main article .review .wrapper .background-review .right-feetback p {
+  text-align: left;
+  font-size: 20px;
+}
+html main article .review .wrapper .feedback, body main article .review .wrapper .feedback {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+html main article .review .wrapper .feedback .feedback2, body main article .review .wrapper .feedback .feedback2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+html main article .review .wrapper .feedback .feedback2 .text-feedback p, body main article .review .wrapper .feedback .feedback2 .text-feedback p {
+  text-align: left;
+  font-size: 20px;
+}
+html main article .review .wrapper .feedback .feedback2 .sign h2, body main article .review .wrapper .feedback .feedback2 .sign h2 {
+  text-align: left;
+}
+html main article .review .wrapper .footer-feedback ul, body main article .review .wrapper .footer-feedback ul {
+  display: flex;
+  gap: 24px;
+  text-align: left;
+}
+html main article .review .wrapper .footer-feedback ul li, body main article .review .wrapper .footer-feedback ul li {
+  padding: 5px 25px;
+  background-color: #e2e0e0;
+  list-style: none;
+  border-radius: 30px;
+}
+html main article .review .wrapper .footer-feedback ul li a, body main article .review .wrapper .footer-feedback ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+@media screen and (max-width: 724px) {
+  html main article .review .wrapper .footer-feedback ul, body main article .review .wrapper .footer-feedback ul {
+    gap: 6px;
+  }
+  html main article .review .wrapper .footer-feedback ul li, body main article .review .wrapper .footer-feedback ul li {
+    padding: 0 3px;
+  }
+  html main article .review .wrapper .footer-feedback ul li a, body main article .review .wrapper .footer-feedback ul li a {
+    font-size: 13px;
+  }
+}
+html main article .review .wrapper .footer-feedback-2 ul, body main article .review .wrapper .footer-feedback-2 ul {
+  display: flex;
+  gap: 24px;
+  text-align: left;
+  padding-right: 700px;
+}
+html main article .review .wrapper .footer-feedback-2 ul li, body main article .review .wrapper .footer-feedback-2 ul li {
+  list-style: none;
+}
+html main article .review .wrapper .footer-feedback-2 ul li img, body main article .review .wrapper .footer-feedback-2 ul li img {
+  width: 200px;
+}
+html main article .review .wrapper .footer-feedback-2 ul li img:last-child, body main article .review .wrapper .footer-feedback-2 ul li img:last-child {
+  gap: 20px;
+}
+@media screen and (min-width: 724px) and (max-width: 1024px) {
+  html main article .review .wrapper .footer-feedback-2, body main article .review .wrapper .footer-feedback-2 {
+    margin: 0;
+    width: 100%;
+    padding: 30px;
+    gap: 20px;
+  }
+  html main article .review .wrapper .footer-feedback-2 .background-review, body main article .review .wrapper .footer-feedback-2 .background-review {
+    flex-direction: column;
+    gap: 30px;
+  }
+  html main article .review .wrapper .footer-feedback-2 .feedback, body main article .review .wrapper .footer-feedback-2 .feedback {
+    flex-direction: column;
+    gap: 20px;
+  }
+  html main article .review .wrapper .footer-feedback-2 .feedback .image, body main article .review .wrapper .footer-feedback-2 .feedback .image {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 724px) {
+  html main article .review .wrapper, body main article .review .wrapper {
+    padding: 10px;
+    gap: 20px;
+  }
+  html main article .review .wrapper .background-review, body main article .review .wrapper .background-review {
+    gap: 10px;
+    flex-direction: column;
+  }
+  html main article .review .wrapper .background-review .left-feedback h1, body main article .review .wrapper .background-review .left-feedback h1 {
+    font-size: 20px;
+  }
+  html main article .review .wrapper .background-review .right-feetback, body main article .review .wrapper .background-review .right-feetback {
+    width: 100%;
+  }
+  html main article .review .wrapper .background-review .right-feetback p, body main article .review .wrapper .background-review .right-feetback p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 724px) {
+  html main article .review .wrapper .footer-feedback-2 ul, body main article .review .wrapper .footer-feedback-2 ul {
+    padding-right: 0;
+  }
+  html main article .review .wrapper .footer-feedback-2 ul li img, body main article .review .wrapper .footer-feedback-2 ul li img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 724px) and (max-width: 1024px) {
+  html main article .review .wrapper .footer-feedback-2 ul, body main article .review .wrapper .footer-feedback-2 ul {
+    padding-right: 0;
+  }
+  html main article .review .wrapper .footer-feedback-2 ul li img, body main article .review .wrapper .footer-feedback-2 ul li img {
+    width: 100px;
+  }
+}
+html main article .wrapper, body main article .wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+html main article .wrapper .heading, body main article .wrapper .heading {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+html main article .wrapper .heading .top h1, body main article .wrapper .heading .top h1 {
+  font-size: 40px;
+}
+html main article .wrapper .heading .center-content p, body main article .wrapper .heading .center-content p {
+  font-size: 20px;
+}
+html main article .wrapper .location .product-list ul, body main article .wrapper .location .product-list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+html main article .wrapper .location .product-list ul li, body main article .wrapper .location .product-list ul li {
+  margin: 10px;
+  list-style: none;
+}
+html main article .wrapper .location .product-list ul li .product-item, body main article .wrapper .location .product-list ul li .product-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+  width: 390px;
+  border: 1px solid rgb(156, 153, 153);
+  box-shadow: #322 0px 0px 10px 0;
+  border-radius: 30px;
+}
+html main article .wrapper .location .product-list ul li .product-item h1, body main article .wrapper .location .product-list ul li .product-item h1 {
+  font-size: 25px;
+  text-align: center;
+}
+html main article .wrapper .location .product-list ul li .product-item .product-image img, body main article .wrapper .location .product-list ul li .product-item .product-image img {
+  width: 350px;
+  border-radius: 30px;
+  padding: 10px;
+}
+html main article .wrapper .location .product-list ul li .product-item .product-info, body main article .wrapper .location .product-list ul li .product-item .product-info {
+  padding: 10px 30px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+html main article .wrapper .location .product-list ul li .product-item .product-buy-now, body main article .wrapper .location .product-list ul li .product-item .product-buy-now {
+  padding: 10px 30px 30px;
+}
+html main article .wrapper .location .product-list ul li .product-item .product-buy-now .product-buy-click a, body main article .wrapper .location .product-list ul li .product-item .product-buy-now .product-buy-click a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  border: 1px solid #7e7e7e;
+  border-radius: 30px;
+}
+html main article .wrapper .location .product-list ul li .product-item .product-buy-now .product-buy-click a:hover, body main article .wrapper .location .product-list ul li .product-item .product-buy-now .product-buy-click a:hover {
+  background-color: #cce7e7;
+}
+@media screen and (max-width: 1024px) {
+  html main article .wrapper .location .product-list, body main article .wrapper .location .product-list {
+    gap: 48px;
+  }
+  html main article .wrapper .location .product-list ul, body main article .wrapper .location .product-list ul {
+    justify-content: center;
+  }
+}
+html main article .content-2, body main article .content-2 {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 85px 30px 0px;
+}
+html main article .content-2 .text-2, body main article .content-2 .text-2 {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+html main article .content-2 .text-2 .left-2, body main article .content-2 .text-2 .left-2 {
+  text-align: left;
+  width: 60%;
+}
+html main article .content-2 .text-2 .left-2 h1, body main article .content-2 .text-2 .left-2 h1 {
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+html main article .content-2 .text-2 .right-2, body main article .content-2 .text-2 .right-2 {
+  width: 40%;
+}
+html main article .content-2 .text-2 .right-2 p, body main article .content-2 .text-2 .right-2 p {
+  font-size: 18px;
+  text-align: justify;
+}
+html main article .content-2 .product-list-2 ul, body main article .content-2 .product-list-2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+html main article .content-2 .product-list-2 ul li, body main article .content-2 .product-list-2 ul li {
+  list-style: none;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2, body main article .content-2 .product-list-2 ul li .product-item-2 {
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+  width: 390px;
+  border: 1px solid rgb(156, 153, 153);
+  box-shadow: #322 0px 0px 10px 0;
+  border-radius: 30px;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2 h1, body main article .content-2 .product-list-2 ul li .product-item-2 h1 {
+  font-size: 25px;
+  text-align: center;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2 .product-image-2 img, body main article .content-2 .product-list-2 ul li .product-item-2 .product-image-2 img {
+  padding: 10px;
+  width: 350px;
+  border-radius: 30px;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2 .product-info-2, body main article .content-2 .product-list-2 ul li .product-item-2 .product-info-2 {
+  padding: 10px 30px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2 .product-info-2 .info-year-2, html main article .content-2 .product-list-2 ul li .product-item-2 .product-info-2 .item-2, body main article .content-2 .product-list-2 ul li .product-item-2 .product-info-2 .info-year-2, body main article .content-2 .product-list-2 ul li .product-item-2 .product-info-2 .item-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2 .product-buy-now-2, body main article .content-2 .product-list-2 ul li .product-item-2 .product-buy-now-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 30px;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2 .product-buy-now-2 .product-buy-click-2 a, body main article .content-2 .product-list-2 ul li .product-item-2 .product-buy-now-2 .product-buy-click-2 a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  background-color: #77dada;
+  border-radius: 30px;
+}
+html main article .content-2 .product-list-2 ul li .product-item-2 .product-buy-now-2 .product-buy-click-2 a:hover, body main article .content-2 .product-list-2 ul li .product-item-2 .product-buy-now-2 .product-buy-click-2 a:hover {
+  background-color: #18c0c0;
+}
+html main article .content-2 .footer-content-2, body main article .content-2 .footer-content-2 {
+  padding: 10px;
+  border: 1px solid rgb(100, 100, 100);
+  width: 150px;
+  border-radius: 30px;
+  text-align: center;
+  margin: 100px auto;
+}
+html main article .content-2 .footer-content-2 a, body main article .content-2 .footer-content-2 a {
+  text-decoration: none;
+  color: #333;
+}
+@media screen and (max-width: 1024px) {
+  html main article .content-2 .footer-content-2, body main article .content-2 .footer-content-2 {
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html main article .content-2, body main article .content-2 {
+    gap: 30px;
+  }
+  html main article .content-2 .text-2, body main article .content-2 .text-2 {
+    flex-direction: column;
+    margin: 0;
+  }
+  html main article .content-2 .product-list-2, body main article .content-2 .product-list-2 {
+    text-align: left;
+  }
+  html main article .content-2 .product-list-2 ul, body main article .content-2 .product-list-2 ul {
+    gap: 20px;
+  }
+  html main article .content-2 .product-list-2 ul li .product-item-2, body main article .content-2 .product-list-2 ul li .product-item-2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html main article, body main article {
+    padding: 10px 0;
+  }
+}
+html footer .wrapper-1, body footer .wrapper-1 {
+  padding: 30px 0;
+  background-color: #344054;
+}
+html footer .wrapper-1 .wrapper-2, body footer .wrapper-1 .wrapper-2 {
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  html footer .wrapper-1 .wrapper-2, body footer .wrapper-1 .wrapper-2 {
+    margin: 0px;
+  }
+}
+html footer .wrapper-1 .wrapper-2 .container-2, body footer .wrapper-1 .wrapper-2 .container-2 {
+  display: flex;
+  gap: 64px;
+}
+@media screen and (max-width: 1024px) {
+  html footer .wrapper-1 .wrapper-2 .container-2, body footer .wrapper-1 .wrapper-2 .container-2 {
+    flex-direction: column;
+    text-align: left;
+    padding: 0 30px;
+  }
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .left-text, body footer .wrapper-1 .wrapper-2 .container-2 .left-text {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+@media screen and (max-width: 1024px) {
+  html footer .wrapper-1 .wrapper-2 .container-2 .left-text .image-1 img, body footer .wrapper-1 .wrapper-2 .container-2 .left-text .image-1 img {
+    width: 200px;
+  }
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .left-text .text-2 p, body footer .wrapper-1 .wrapper-2 .container-2 .left-text .text-2 p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--gray-600, #8b98ab);
+}
+@media screen and (max-width: 724px) {
+  html footer .wrapper-1 .wrapper-2 .container-2 .left-text .text-2 p, body footer .wrapper-1 .wrapper-2 .container-2 .left-text .text-2 p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 724px) {
+  html footer .wrapper-1 .wrapper-2 .container-2 .left-text, body footer .wrapper-1 .wrapper-2 .container-2 .left-text {
+    width: 100%;
+  }
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text, body footer .wrapper-1 .wrapper-2 .container-2 .right-text {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  html footer .wrapper-1 .wrapper-2 .container-2 .right-text, body footer .wrapper-1 .wrapper-2 .container-2 .right-text {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: left;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left h3, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left h3 {
+  color: var(--gray-600, #8b98ab);
+  cursor: default;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left ul, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left ul li, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left ul li {
+  list-style: none;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left ul li a, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-left ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--gray-700, #737d8e);
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: left;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center h3, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center h3 {
+  color: var(--gray-600, #8b98ab);
+  cursor: default;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center ul, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center ul li, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center ul li {
+  list-style: none;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center ul li a, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-center ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--gray-700, #737d8e);
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: left;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right h3, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right h3 {
+  color: var(--gray-600, #8b98ab);
+  cursor: default;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right ul, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right ul li, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right ul li {
+  list-style: none;
+}
+html footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right ul li a, body footer .wrapper-1 .wrapper-2 .container-2 .right-text .info-footer-right ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--gray-700, #737d8e);
+}
+@media screen and (max-width: 1024px) {
+  html footer .wrapper-1 .wrapper-2 .container-2 .right-text h3, body footer .wrapper-1 .wrapper-2 .container-2 .right-text h3 {
+    font-size: 18px;
+  }
+  html footer .wrapper-1 .wrapper-2 .container-2 .right-text ul li a, body footer .wrapper-1 .wrapper-2 .container-2 .right-text ul li a {
+    font-size: 15px;
+  }
+}
+html footer .wrapper-3, body footer .wrapper-3 {
+  background-color: #192841;
+}
+html footer .wrapper-3 .wrapper-4, body footer .wrapper-3 .wrapper-4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  padding: 50px 0;
+}
+html footer .wrapper-3 .wrapper-4 .left span, body footer .wrapper-3 .wrapper-4 .left span {
+  color: #bac3d3;
+}
+@media screen and (max-width: 724px) {
+  html footer .wrapper-3 .wrapper-4 .right, body footer .wrapper-3 .wrapper-4 .right {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

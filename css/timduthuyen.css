@@ -1,0 +1,329 @@
+html main article {
+  padding: 0;
+}
+html main article .container-thuyen {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 80px;
+  width: 80%;
+  margin: auto;
+  padding: 50px 20px;
+}
+html main article .container-thuyen .hien-search {
+  display: none;
+}
+html main article .container-thuyen .main-search-thuyen {
+  padding: 20px 24px 24px;
+  background-color: #FFF;
+  border-radius: 30px;
+  border: 1px solid #7e7e7e;
+  box-shadow: #7e7e7e 0px 0px 16px 2px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 150px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .heading-thuyen {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .heading-thuyen h1 {
+  font-size: 45px;
+}
+@media screen and (max-width: 724px) {
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .heading-thuyen h1 {
+    font-size: 18px;
+  }
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .heading-thuyen p {
+  color: #7d7d7d;
+  font-size: 20px;
+}
+@media screen and (max-width: 724px) {
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .heading-thuyen p {
+    font-size: 15px;
+  }
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen {
+  display: flex;
+  gap: 20px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .search1-thuyen {
+  width: 300px;
+  padding: 13px;
+  background-color: #FFF;
+  border: 1px solid #333;
+  border-radius: 30px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .search1-thuyen input[type=text] {
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .search1-thuyen:hover {
+  box-shadow: rgb(46, 131, 211) 0 0 15px 5px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen {
+  width: 250px;
+  background-color: #FFF;
+  border: 1px solid #333;
+  border-radius: 30px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen select {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen:hover {
+  box-shadow: rgb(46, 131, 211) 0 0 15px 5px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen input[type=submit] {
+  background-color: rgb(0, 255, 208);
+  border-radius: 30px;
+}
+html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen input[type=submit]:hover {
+  background-color: rgb(96, 226, 126);
+}
+@media screen and (min-width: 320px) and (max-width: 724px) {
+  html main article .container-thuyen .main-search-thuyen {
+    top: 1%;
+    width: 90%;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen {
+    gap: 10px;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .heading-thuyen {
+    gap: 0;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .search1-thuyen {
+    border-radius: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .search1-thuyen input[type=text] {
+    font-size: 14px;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen span {
+    display: none;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen select {
+    flex-grow: 1;
+    padding: 2px;
+    font-size: 14px;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen input[type=submit] {
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 724px) {
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen {
+    padding: 0 20px;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen input[type=submit] {
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 724px) and (max-width: 1024px) {
+  html main article .container-thuyen .main-search-thuyen {
+    margin: 30px 0;
+    width: 90%;
+    top: 0;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .search1-thuyen {
+    border-radius: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen .checkin-thuyen {
+    padding: 0 20px;
+    border-radius: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8 select;
+    gap-flex-grow: 1;
+  }
+  html main article .container-thuyen .main-search-thuyen .form1-thuyen .search-thuyen input[type=submit] {
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+  }
+}
+html main article .container-thuyen .wrapper-thuyen {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+html main article .container-thuyen .wrapper-thuyen .search-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+html main article .container-thuyen .wrapper-thuyen .search-header .search-sort form select {
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  max-width: 1208px;
+  margin: auto;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .loc {
+  width: 30%;
+  border-radius: 30px;
+  border: 1px solid #333;
+  box-shadow: 0px 0px 20px 0px #7e7e7e;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .loc form .heading {
+  padding: 20px 20px;
+  display: flex;
+  border-bottom: 1px solid #333;
+  justify-content: space-between;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .loc form .heading label {
+  font-size: 19px;
+  font-weight: 900;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .loc form .heading input[type=reset] {
+  cursor: pointer;
+  border: none;
+  background-color: #FFF;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .loc form .heading input[type=reset]:hover {
+  color: aqua;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .loc form .show .search-thuyen01 {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen {
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li {
+  list-style: none;
+  box-shadow: 10px 10x 10px 10px rgba(51, 51, 51, 0.2);
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo {
+  background-color: #fff;
+  border-radius: 30px;
+  border: 1px solid #333;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .image-thuyen img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi {
+  text-align: left;
+  width: 100%;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .diachi {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .loc-search {
+  margin: 20px 0;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .loc-search ul {
+  display: flex;
+  gap: 20px;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .loc-search ul li a {
+  color: #333;
+  font-size: 11px;
+  text-decoration: none;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .buy-now {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .buy-now .monney h3 {
+  margin: 9px 0;
+  font-weight: 600;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .buy-now .muangay {
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: aqua;
+}
+html main article .container-thuyen .wrapper-thuyen .content-thuyen .infa-thuyen .product-list02 li .product-inffo .info-diachi .buy-now .muangay a {
+  color: #333;
+  text-decoration: none;
+}
+@media screen and (max-width: 724px) {
+  html main article .container-thuyen .hien-1 {
+    display: none;
+  }
+  html main article .container-thuyen .hien-search {
+    display: block;
+  }
+  html main article .container-thuyen .hien-search a {
+    text-decoration: none;
+    color: #333;
+  }
+  html main article .container-thuyen .wrapper-thuyen .search-header .search-title .text h1 {
+    font-size: 15px;
+  }
+  html main article .container-thuyen .wrapper-thuyen .search-header .search-sort form select {
+    outline: none;
+    padding: 0;
+    font-size: 10px;
+    border-radius: 30px;
+  }
+}/*# sourceMappingURL=timduthuyen.css.map */
